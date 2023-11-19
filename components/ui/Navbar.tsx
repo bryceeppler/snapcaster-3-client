@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
@@ -85,7 +85,7 @@ export default function Navbar({}: Props) {
                 />
                 {}
                 <Image
-                  className="hidden mb-2 lg:block"
+                  className="hidden mb-2 lg:block w-auto"
                   src={logoSrc}
                   alt="snapcaster"
                     width={80}
