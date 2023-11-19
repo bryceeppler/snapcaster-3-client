@@ -1,5 +1,3 @@
-import Button from "@/components/ui/Button";
-
 export default function Component() {
   return (
     <section className="flex min-h-screen flex-col items-center justify-between p-24">
